@@ -3,19 +3,6 @@
 ## How to use this tool
 #### To use the Bootstrap Preview tool, simply include the following elements in your template: 
 
-* **CSS** _(#bs-theme required)_
-```html
-<link id="bs-theme" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-```
-* **JavaScript**
-```html
-<script src="js/bs-previewer.js"></script>
-```
-* **Wrapper for menu** _(#bs-previewer required)_
-```html
-<div id="bs-previewer"></div>
-```
-
 ```html
 <html>
   <head>
@@ -23,8 +10,14 @@
     <link id="bs-theme" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <!-- #bs-previer required for the script to inject the menu -->
-    <div id="bs-previewer"></div>
+    <nav class="navbar navbar-default">
+      <!-- Navbar content... -->
+    </nav>
+    <div class="container" role="main">
+      <!-- #bs-previer required for the script to inject the menu -->
+      <div id="bs-previewer"></div>
+      <!-- Body content... -->
+    </div>    
     <script src="js/bs-previewer.js"></script>
   </body>
 </html>
@@ -39,5 +32,3 @@
  This button displays your currently applied theme. When clicked, it will cycle through the full list of themes, one by one.
 * **Navbar View: Default**  
  This button displays your currently applied navbar class. When clicked, it will cycle between _.navbar-default_ and _.navbar-inverse_
-
-
