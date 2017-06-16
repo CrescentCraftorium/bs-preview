@@ -31,7 +31,7 @@ The wrapper div can be placed anywhere in your template and will conform to your
 * **Theme**  
  A list of themes to apply to your page. Simply click on any of the theme names to apply them to your page.  
  By default this list includes the Default and Styled versions of [Bootstrap](http://getbootstrap.com/) as well as the full offering of [Bootswatch](http://bootswatch.com/) themes.  
- ###### All themes are property of their respective owners.
+ <small>_All themes are property of their respective owners._</small>
 * **Current Theme: Bootstrap Default**  
  This button displays your currently applied theme. When clicked, it will cycle through the full list of themes, one by one.
 * **Navbar View: Default**  
