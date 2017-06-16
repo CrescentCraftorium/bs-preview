@@ -16,6 +16,20 @@
 <div id="bs-previewer"></div>
 ```
 
+```html
+<html>
+  <head>
+    <!-- #bs-theme required for the script to inject the css urls -->
+    <link id="bs-theme" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- #bs-previer required for the script to inject the menu -->
+    <div id="bs-previewer"></div>
+    <script src="js/bs-previewer.js"></script>
+  </body>
+</html>
+```
+
 #### The wrapper div can be placed anywhere in your template and will conform to your responsiveness or lack there of. You will be presented with 3 options in the menu that is generated:
 
 * **Theme**  
