@@ -1,7 +1,7 @@
 # bs-preview
 
 ## How to use this tool
-#### To use the Bootstrap Preview tool, simply include the following elements in your template: 
+To use the Bootstrap Preview tool, simply include the following elements in your template: 
 
 ```html
 <html>
@@ -26,7 +26,7 @@
 </html>
 ```
 
-#### The wrapper div can be placed anywhere in your template and will conform to your responsiveness or lack there of. You will be presented with 3 options in the menu that is generated:
+The wrapper div can be placed anywhere in your template and will conform to your responsiveness or lack there of. You will be presented with 3 options in the menu that is generated:
 
 * **Theme**  
  A list of themes to apply to your page. Simply click on any of the theme names to apply them to your page.  
@@ -36,5 +36,4 @@
 * **Navbar View: Default**  
  This button displays your currently applied navbar class. When clicked, it will cycle between _.navbar-default_ and _.navbar-inverse_
 
-
-#### The index.html file included is built from the Bootstrap 3 example template. However, by including the elements above into any template you will get the same functionallity. Everything is generated on the page, so you can use this with any templating library you like (_I use [PUG](https://pugjs.org)_)
+The index.html file included is built from the Bootstrap 3 example template. However, by including the elements above into any template you will get the same functionality. Everything is generated on the page, so you can use this with any template library you would like. I use this with [PUG](https://pugjs.org), but I've tested it with plain HTML 5 and Handlebars as well.
