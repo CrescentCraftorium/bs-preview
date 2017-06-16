@@ -10,7 +10,7 @@ To use the Bootstrap Preview tool, simply include the following elements in your
     <link id="bs-theme" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" role="navigation">
       <!-- Navbar content... -->
     </nav>
     <div class="container" role="main">

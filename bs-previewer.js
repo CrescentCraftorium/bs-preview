@@ -136,13 +136,13 @@ $('#theme-toggle').on('click', function(e) {
 // Navbar Toggle events
 $('#navbar-toggle').on('click', function(e) {
   e.preventDefault();
-  if ($('nav').hasClass('navbar-default')) {
-    $('nav').removeClass('navbar-default');
-    $('nav').addClass('navbar-inverse');
+  if ($('nav').eq(0).hasClass('navbar-default')) {
+    $('nav').eq(0).removeClass('navbar-default');
+    $('nav').eq(0).addClass('navbar-inverse');
     $('#navbar-state').empty().append('Inverse');
   } else {
-    $('nav').removeClass('navbar-inverse');
-    $('nav').addClass('navbar-default');
+    $('nav').eq(0).removeClass('navbar-inverse');
+    $('nav').eq(0).addClass('navbar-default');
     $('#navbar-state').empty().append('Default');
   }
 });
