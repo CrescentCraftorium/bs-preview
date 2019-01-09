@@ -35,6 +35,6 @@ The wrapper div can be placed anywhere in your template and will conform to your
 * **Current Theme: Bootstrap Default**  
  This button displays your currently applied theme. When clicked, it will cycle through the full list of themes, one by one.
 * **Navbar View: Default**  
- This button displays your currently applied navbar class. When clicked, it will cycle between _.navbar-default_ and _.navbar-inverse_
+ This button displays your currently applied navbar class. When clicked, it will cycle between ```.navbar-default``` and ```.navbar-inverse```
 
 The index.html file included is built from the Bootstrap 3 example template. However, by including the elements above into any template you will get the same functionality. Everything is generated on the page, so you can use this with any template library you would like. I use this with [PUG](https://pugjs.org), but I've tested it with plain HTML 5 and Handlebars as well.
